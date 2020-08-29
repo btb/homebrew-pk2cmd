@@ -41,7 +41,7 @@ index 1a23325..f194ba9 100644
 +	mkdir -p $(PREFIX)/bin
 +	cp $(APP) $(PREFIX)/bin
 +	chmod u+s $(PREFIX)/bin/$(APP)
-+	cp pk2cmd/release/PK2DeviceFile.dat $(PREFIX)/share/pk2/PK2DeviceFile.dat
++	cp ../release/PK2DeviceFile.dat $(PREFIX)/share/pk2/PK2DeviceFile.dat
  
  clean:
  	rm -f *.o
